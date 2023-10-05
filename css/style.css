@@ -1,0 +1,32 @@
+/* These classes all refer to the navbar and logo */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+}
+
+.logoImage {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+
+.navbar-link {
+    margin: 3px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #BC945B;
+}
+
+.navbar-link:hover {
+    color: #877148;
+    border-color: #BC945B;
+}
+
+/* These classes refer to the content of the page */
