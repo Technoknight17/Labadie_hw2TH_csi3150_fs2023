@@ -27,6 +27,47 @@
 .navbar-link:hover {
     color: #877148;
     border-color: #BC945B;
+    transform: scale(1.1);
 }
 
 /* These classes refer to the content of the page */
+.center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+a {
+    color: #BC945B;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+progress {
+    border: 3px solid #877148;
+    border-radius: 10px;
+}
+
+/* Found on geeksforgeeks.org */
+progress::-webkit-progress-value {
+    background: #BC945B;
+}
