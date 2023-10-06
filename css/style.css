@@ -38,6 +38,11 @@
     text-align: center;
 }
 
+.center-img {
+    margin: 0 auto;
+    display: block;
+}
+
 h1 {
     font-size: x-large;
 }
@@ -59,6 +64,8 @@ button {
 }
 
 button:hover {
+    color: #877148;
+    border-color: #BC945B;
     transform: scale(1.1);
 }
 
